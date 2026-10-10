@@ -1,0 +1,12 @@
+{
+  "name": "Saga do Caju",
+  "short_name": "Saga do Caju",
+  "id": "com.example.gamename",
+  "description": "Objeto de Aprendizagem educacional criado pra ensinar pensamento algebrico para crianças de diferentes faixas etarias",
+  "orientation": "landscape",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": []
+}
