@@ -438,7 +438,7 @@ for(var i = 0, len = gdjs.mini_45desafio3_462Code.GDvoltarObjects3.length ;i < l
 }
 }
 {for(var i = 0, len = gdjs.mini_45desafio3_462Code.GDvoltarObjects3.length ;i < len;++i) {
-    gdjs.mini_45desafio3_462Code.GDvoltarObjects3[i].getBehavior("Text").setText("VOLTAR");
+    gdjs.mini_45desafio3_462Code.GDvoltarObjects3[i].getBehavior("Text").setText("PRÓXIMO");
 }
 }
 }
@@ -447,11 +447,11 @@ for(var i = 0, len = gdjs.mini_45desafio3_462Code.GDvoltarObjects3.length ;i < l
 
 
 };gdjs.mini_45desafio3_462Code.mapOfGDgdjs_9546mini_959545desafio3_9595462Code_9546GDiniciarObjects1ObjectsGDgdjs_9546mini_959545desafio3_9595462Code_9546GDvoltarObjects1Objects = Hashtable.newFrom({"iniciar": gdjs.mini_45desafio3_462Code.GDiniciarObjects1, "voltar": gdjs.mini_45desafio3_462Code.GDvoltarObjects1});
-gdjs.mini_45desafio3_462Code.asyncCallback39315796 = function (runtimeScene, asyncObjectsList) {
+gdjs.mini_45desafio3_462Code.asyncCallback26069308 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.mini_45desafio3_462Code.localVariables);
 gdjs.mini_45desafio3_462Code.localVariables.length = 0;
 }
-gdjs.mini_45desafio3_462Code.idToCallbackMap.set(39315796, gdjs.mini_45desafio3_462Code.asyncCallback39315796);
+gdjs.mini_45desafio3_462Code.idToCallbackMap.set(26069308, gdjs.mini_45desafio3_462Code.asyncCallback26069308);
 gdjs.mini_45desafio3_462Code.eventsList3 = function(runtimeScene) {
 
 {
@@ -461,7 +461,7 @@ gdjs.mini_45desafio3_462Code.eventsList3 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.mini_45desafio3_462Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.mini_45desafio3_462Code.asyncCallback39315796(runtimeScene, asyncObjectsList)), 39315796, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.mini_45desafio3_462Code.asyncCallback26069308(runtimeScene, asyncObjectsList)), 26069308, asyncObjectsList);
 }
 }
 

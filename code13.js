@@ -149,16 +149,24 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(2).getAsNumber() == 8);
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(2).getAsNumber() == 9);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(gdjs.introdu_231_227o3Code.GDdialogo_9595lunaObjects1, gdjs.introdu_231_227o3Code.GDdialogo_9595lunaObjects2);
+
+gdjs.copyArray(gdjs.introdu_231_227o3Code.GDfundo_9595lunaObjects1, gdjs.introdu_231_227o3Code.GDfundo_9595lunaObjects2);
 
 {for(var i = 0, len = gdjs.introdu_231_227o3Code.GDdialogo_9595lunaObjects2.length ;i < len;++i) {
     gdjs.introdu_231_227o3Code.GDdialogo_9595lunaObjects2[i].hide();
 }
 }
+{for(var i = 0, len = gdjs.introdu_231_227o3Code.GDfundo_9595lunaObjects2.length ;i < len;++i) {
+    gdjs.introdu_231_227o3Code.GDfundo_9595lunaObjects2[i].hide();
+}
+}
 {gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "mini-desafio3.1");
+}
+{runtimeScene.getScene().getVariables().getFromIndex(2).add(1);
 }
 }
 
@@ -170,7 +178,7 @@ gdjs.copyArray(gdjs.introdu_231_227o3Code.GDdialogo_9595lunaObjects1, gdjs.intro
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(2).getAsNumber() != 8);
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(2).getAsNumber() != 9);
 }
 if (isConditionTrue_0) {
 
