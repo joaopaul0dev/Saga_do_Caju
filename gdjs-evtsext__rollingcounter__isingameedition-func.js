@@ -9,7 +9,7 @@ gdjs.evtsExt__RollingCounter__IsInGameEdition = {};
 gdjs.evtsExt__RollingCounter__IsInGameEdition.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__RollingCounter__IsInGameEdition.userFunc0x1074340 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__RollingCounter__IsInGameEdition.userFunc0x1d269e8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const game = runtimeScene.getGame();
 eventsFunctionContext.returnValue = game.isInGameEdition && game.isInGameEdition();
@@ -19,7 +19,7 @@ gdjs.evtsExt__RollingCounter__IsInGameEdition.eventsList0 = function(runtimeScen
 {
 
 
-gdjs.evtsExt__RollingCounter__IsInGameEdition.userFunc0x1074340(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__RollingCounter__IsInGameEdition.userFunc0x1d269e8(runtimeScene, eventsFunctionContext);
 
 }
 

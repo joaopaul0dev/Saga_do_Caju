@@ -103,11 +103,11 @@ gdjs.mini_45desafio3_461Code.mapOfGDgdjs_9546mini_959545desafio3_9595461Code_954
 gdjs.mini_45desafio3_461Code.eventsList2 = function(runtimeScene) {
 
 };gdjs.mini_45desafio3_461Code.mapOfGDgdjs_9546mini_959545desafio3_9595461Code_9546GDiniciarObjects1ObjectsGDgdjs_9546mini_959545desafio3_9595461Code_9546GDvoltarObjects1Objects = Hashtable.newFrom({"iniciar": gdjs.mini_45desafio3_461Code.GDiniciarObjects1, "voltar": gdjs.mini_45desafio3_461Code.GDvoltarObjects1});
-gdjs.mini_45desafio3_461Code.asyncCallback39230652 = function (runtimeScene, asyncObjectsList) {
+gdjs.mini_45desafio3_461Code.asyncCallback25980580 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.mini_45desafio3_461Code.localVariables);
 gdjs.mini_45desafio3_461Code.localVariables.length = 0;
 }
-gdjs.mini_45desafio3_461Code.idToCallbackMap.set(39230652, gdjs.mini_45desafio3_461Code.asyncCallback39230652);
+gdjs.mini_45desafio3_461Code.idToCallbackMap.set(25980580, gdjs.mini_45desafio3_461Code.asyncCallback25980580);
 gdjs.mini_45desafio3_461Code.eventsList3 = function(runtimeScene) {
 
 {
@@ -117,7 +117,7 @@ gdjs.mini_45desafio3_461Code.eventsList3 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.mini_45desafio3_461Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.mini_45desafio3_461Code.asyncCallback39230652(runtimeScene, asyncObjectsList)), 39230652, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.mini_45desafio3_461Code.asyncCallback25980580(runtimeScene, asyncObjectsList)), 25980580, asyncObjectsList);
 }
 }
 
@@ -151,7 +151,7 @@ gdjs.copyArray(runtimeScene.getObjects("transição"), gdjs.mini_45desafio3_461C
     gdjs.mini_45desafio3_461Code.GDtransi_95231_95227oObjects2[i].getBehavior("FlashTransitionPainter").PaintEffect("0;0;0", 0.5, "Circular", "Forward", 255, null);
 }
 }
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "mini-desafio3.2", false);
+{gdjs.evtTools.runtimeScene.popScene(runtimeScene);
 }
 
 { //Subevents

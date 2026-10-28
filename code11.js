@@ -154,8 +154,14 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 gdjs.copyArray(gdjs.introdu_231_227o2Code.GDdialogo_9595lunaObjects1, gdjs.introdu_231_227o2Code.GDdialogo_9595lunaObjects2);
 
+gdjs.copyArray(gdjs.introdu_231_227o2Code.GDfundo_9595lunaObjects1, gdjs.introdu_231_227o2Code.GDfundo_9595lunaObjects2);
+
 {for(var i = 0, len = gdjs.introdu_231_227o2Code.GDdialogo_9595lunaObjects2.length ;i < len;++i) {
     gdjs.introdu_231_227o2Code.GDdialogo_9595lunaObjects2[i].hide();
+}
+}
+{for(var i = 0, len = gdjs.introdu_231_227o2Code.GDfundo_9595lunaObjects2.length ;i < len;++i) {
+    gdjs.introdu_231_227o2Code.GDfundo_9595lunaObjects2[i].hide();
 }
 }
 {gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "mini-desafio2");

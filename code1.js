@@ -520,7 +520,7 @@ gdjs.fase2Code.localVariables.push(variables);
 }
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "esperarClique") > 1;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "esperarClique") > 2;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.fase2Code.mapOfGDgdjs_9546fase2Code_9546GDiniciarObjects2Objects, runtimeScene, true, false);
@@ -608,13 +608,13 @@ gdjs.fase2Code.eventsList4(runtimeScene);} //End of subevents
 
 
 };gdjs.fase2Code.mapOfGDgdjs_9546fase2Code_9546GDinicio_95959595botaoObjects1Objects = Hashtable.newFrom({"inicio_botao": gdjs.fase2Code.GDinicio_9595botaoObjects1});
-gdjs.fase2Code.asyncCallback37488260 = function (runtimeScene, asyncObjectsList) {
+gdjs.fase2Code.asyncCallback24364372 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.fase2Code.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Menu Inicial", false);
 }
 gdjs.fase2Code.localVariables.length = 0;
 }
-gdjs.fase2Code.idToCallbackMap.set(37488260, gdjs.fase2Code.asyncCallback37488260);
+gdjs.fase2Code.idToCallbackMap.set(24364372, gdjs.fase2Code.asyncCallback24364372);
 gdjs.fase2Code.eventsList6 = function(runtimeScene) {
 
 {
@@ -624,7 +624,7 @@ gdjs.fase2Code.eventsList6 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.fase2Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.fase2Code.asyncCallback37488260(runtimeScene, asyncObjectsList)), 37488260, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.fase2Code.asyncCallback24364372(runtimeScene, asyncObjectsList)), 24364372, asyncObjectsList);
 }
 }
 
